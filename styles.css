@@ -1,0 +1,42 @@
+body {
+    font-family: 'Literata', serif;
+}
+
+.jumbotron {
+    font-family: 'Literata', serif;
+    background: url("img/woodbackground.jpg") no-repeat center center;
+    max-height: 330px;
+    margin: 0;
+}
+.byline {
+    font-family: 'Fredericka the Great', cursive;
+    color:black;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-left: 80px;
+}
+.hrbyline {
+    border-top: 3px solid rgb(56, 37, 9);
+}
+.navbar {
+    background-color:rgb(56, 37, 9);
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#navbarLogo {
+    background-image: url("img/woodbackground.jpg");
+    padding: 5px;
+    border-radius: 3px;
+}
+#homediv1 {
+    background-image: url("img/foggywoods.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin: 0;
+    height: 400px;
+    width: 100%;
+}
