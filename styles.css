@@ -1,10 +1,13 @@
 body {
     font-family: 'Literata', serif;
 }
-
+h1 {
+    font-family: 'Literata', serif;
+}
 .jumbotron {
     font-family: 'Literata', serif;
     background: url("img/woodbackground.jpg") no-repeat center center;
+    background-size: cover;
     max-height: 330px;
     margin: 0;
 }
@@ -22,7 +25,7 @@ body {
 }
 .navbar {
     background-color:rgb(56, 37, 9);
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Literata', serif;
     font-size: 18px;
     padding-left: 10px;
 }
@@ -31,12 +34,86 @@ body {
     padding: 5px;
     border-radius: 3px;
 }
-#homediv1 {
-    background-image: url("img/foggywoods.jpg");
+footer {
+    background-image: url("img/woodbackground.jpg");
+    background-size: cover;
+    font-family: 'Literata', serif;
+}
+.txtsegment {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(56, 37, 9);
+    padding: 30px 20px;
+    align-self: center;
+}
+.resImg {
+    max-width: 75%;
+}
+.resImgDiv {
+    padding: 30px 20px;
+}
+.btn {
+    font-family: 'Literata', serif;
+}
+#maplink {
+    font-size: 25px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+}
+#email {
+    margin: 10px auto;
+    width: 80%;
+    max-width: 400px;
+}
+#txtdiv1 {
+    background-image: linear-gradient(to right, white, white, rgb(35, 116, 53));
+}
+#txtdiv2 {
+    background-image: linear-gradient(to left, white, white, rgb(240, 237, 106));
+}
+#txtdiv3 {
+    background-image: linear-gradient(to left, rgb(35, 116, 53), white, rgb(240, 237, 106));
+}
+#txtdiv4 {
+    background-image: linear-gradient(white, rgb(252, 215, 172), white);
+}
+.formdiv {
+    background:rgb(56, 37, 9);
+    color: white;
+    padding: 30px;
+}
+#imgdiv1 {
+    background-image: url("img/american-bison-3580601.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
-    margin: 0;
-    height: 400px;
-    width: 100%;
+    max-width: 100% !important;
+    overflow: hidden;
+}
+#imgdiv2 {
+    background-image: url("img/jungle-4186950.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#imgdiv3 {
+    background-image: url("img/appetizer-1386743.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#imgdiv4 {
+    background-image: url("img/panorama-2300806_1920.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
