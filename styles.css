@@ -38,6 +38,30 @@ footer {
     background-image: url("img/woodbackground.jpg");
     background-size: cover;
     font-family: 'Literata', serif;
+    margin: 0;
+}
+.tab-content {
+    border: 1px black solid;
+    border-top: none;
+    padding: 30px;
+}
+.menutab {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(56, 37, 9);
+}
+.menucontent {
+    background: white;
+}
+.menucard {
+    color:rgb(56, 37, 9);
+    background: rgb(225, 225, 225);
+}
+.card-title {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    color:rgb(99, 10, 10);
 }
 .txtsegment {
     font-family: 'Fredericka the Great', cursive;
@@ -49,12 +73,17 @@ footer {
 }
 .resImg {
     max-width: 75%;
+    max-height: 300px;
 }
 .resImgDiv {
     padding: 30px 20px;
 }
 .btn {
     font-family: 'Literata', serif;
+}
+#accordion {
+    max-width: 750px;
+    margin: auto;
 }
 #maplink {
     font-size: 25px;
@@ -77,6 +106,17 @@ footer {
 }
 #txtdiv4 {
     background-image: linear-gradient(white, rgb(252, 215, 172), white);
+}
+#txtdiv5 {
+    background:rgb(99, 10, 10);
+    color: rgb(175, 175, 175);
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .formdiv {
     background:rgb(56, 37, 9);
@@ -116,4 +156,16 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#imgdiv5 {
+    background-image: url(img/nasibubur.jpg);
+    background-size: cover;
+    min-height: 200px;
+    background-position: center;
+}
+#imgdiv6 {
+    background-image: url(img/Polish-Bigos.jpg);
+    background-size: cover;
+    min-height: 200px;
+    background-position: center;
 }

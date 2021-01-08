@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Literata:ital,wght@0,400;0,900;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <title>BT Bistro</title>
+</head>
+<body>
+<header class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="row row-content">
+            <div class="media col-lg-9">
+                <img class="img-fluid" src="img/BTBistroLogov2.png">
+            </div>
+            <div class="d-none d-lg-block byline">
+                <p>Halal</p>
+                <hr class="hrbyline">
+                <p>Eurasian</p>
+                <hr class="hrbyline">
+                <p>Fusion</p>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/BTBistroLogoSmall.png" id="navbarLogo" height="30px" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li><button type="button" class="btn btn-danger">Order</button></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid px-0 text-center overflow-hidden" style="background:rgb(56, 37, 9)">
+    <div class="row" id="txtdiv5">
+        <div class="col-md-6">
+            <p>Our menu changes daily, using only the freshest ingredients and slow-cooked to perfection.</p>
+            <button type="button" class="btn btn-danger">Why Bistro?</button>
+        </div>
+        <div class="d-none d-md-block col-md-6 resImgDiv">
+            <img class="resImg" src="img/fruits-2026279_1280.png">
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col">
+            <ul class="nav nav-tabs">
+                <li class="nav-item menutab"><a class="nav-link active" role="tab" data-toggle="tab" href="#today">Today's Menu</a></li>
+                <li class="nav-item menutab"><a class="nav-link" role="tab" data-toggle="tab" href="#tomorrow">Tomorrow's Menu</a></li>
+            </ul>
+            <div class="tab-content menucontent text-center">
+                <div id="today" role="tabpanel" class="tab-pane fade in show active">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-8 menucard">
+                                <div class="card-body">
+                                    <h1 class="card-title">Bigos</h1>
+                                    <h3 class="card-text"><strong>Hunter's Stew</strong></h3>
+                                    <p class="card-text">A paragraph about our fusion bigos asdfas asdasd asdfasdfa asdfasdf asdfadfadf asdfadfadf asdfadsfadf asdfasdf afdasdfsd asdasdasd asdadfasdfadfasd asdadf aasdf adsfasdf asdfsdfa as</p>
+                                    <p class="card-text">$12</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4" id="imgdiv6">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tomorrow" role="tabpanel" class="tab-pane fade in">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-8 menucard">
+                                <div class="card-body">
+                                    <h1 class="card-title">Nasi Air</h1>
+                                    <h3 class="card-text"><strong>Rice Congee</strong></h3>
+                                    <p class="card-text">A paragraph about our fusion nasi air, asdlk asdl kalsdk alsdkal dkaldk kasld kasld kad lad ladk aldk aldk aldka ldka dlakd lakd ladk aldk aldk aldk aldk aldk ald akd ladk ald sk</p>
+                                    <p class="card-text">$12</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4" id="imgdiv5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row row-content">
+        <div class="col text-center">
+            <h3>Side Dishes & Beverages</h3>
+            <p>Availabe Daily</p>
+            <div id="accordion">
+                <div class="card">
+                    <div role="tab" class="card-header">
+                        <h4>
+                            <a data-toggle="collapse" data-target="#bootstrap">
+                                Coconut Rice
+                            </a>
+                        </h4>
+                        <div class="collapse show" id="bootstrap" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div role="tab" class="card-header">
+                        <h4>
+                            <a class="collapsed" data-toggle="collapse" data-target="#git">
+                                Rye Bread
+                            </a>
+                        </h4>
+                        <div class="collapse" id="git" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div role="tab" class="card-header">
+                        <h4>
+                            <a class="collapsed" data-toggle="collapse" data-target="#mongo">
+                                Teh Tarik
+                            </a>
+                        </h4>
+                        <div class="collapse" id="mongo" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div role="tab" class="card-header">
+                        <h4>
+                            <a class="collapsed" data-toggle="collapse" data-target="#node">
+                                Kompot
+                            </a>
+                        </h4>
+                        <div class="collapse" id="node" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid formdiv text-center">
+    <form>
+        <div class="form-group row">
+            <label for="email" class="col-12 col-form-label"><h2>Sign up for email updates, recipes and special offers!</h2></label>
+            <div class="col-12">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email"/>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-danger">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>BT BISTRO</h1><br>
+                <button type="button" class="btn btn-danger">Order Online</button><br><br>
+                <h2>10am to 10pm<br>Closed Mondays</h2><br>
+                <h2>(510) 345-6789</h2>
+                <h2>info@btbistro</h2><br>
+                <p id="maplink">GOOGLE MAPS</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
