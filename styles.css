@@ -79,9 +79,38 @@ footer {
 .btn {
     font-family: 'Literata', serif;
 }
+#sidesbevs {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    color:rgb(175, 175, 175);
+    font-size: 40px;
+    margin: 30px auto;
+}
 #accordion {
     max-width: 750px;
     margin: auto;
+}
+.sideheader {
+    font-family: 'Literata', serif;
+    color:rgb(56, 37, 9);
+    font-weight: bold;
+}
+.transbox {
+    background-color: rgba(255, 255, 255, 0.4);
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+#side1 {
+    background-image: url(img/coconutrice.jpg);
+    background-size: cover;
+    background-position: center right;
+}
+#side2 {
+    background-image: url(img/ryebread.jpg);
+    background-size: cover;
+    background-position: center;
 }
 #maplink {
     font-size: 25px;

@@ -126,20 +126,21 @@
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container-fluid" style="background: rgb(99,10,10);">
     <div class="row row-content">
-        <div class="col text-center">
-            <h3>Side Dishes & Beverages</h3>
-            <p>Availabe Daily</p>
+        <div class="col text-center mb-5">
+            <h3 id="sidesbevs">Side Dishes & Beverages<br><small>Available Daily</small></h3>
             <div id="accordion">
                 <div class="card">
-                    <div role="tab" class="card-header">
-                        <h4>
-                            <a data-toggle="collapse" data-target="#bootstrap">
-                                Coconut Rice
-                            </a>
-                        </h4>
-                        <div class="collapse show" id="bootstrap" data-parent="#accordion">
+                    <div role="tab" class="card-header" id="side1">
+                        <div class="transbox">
+                            <h4>
+                                <a class="sideheader" data-toggle="collapse" data-target="#coconutrice">
+                                    <strong>Coconut Rice</strong>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="collapse show" id="coconutrice" data-parent="#accordion">
                             <div class="card-body">
                                 <p>Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
                             </div>
@@ -147,13 +148,15 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div role="tab" class="card-header">
-                        <h4>
-                            <a class="collapsed" data-toggle="collapse" data-target="#git">
-                                Rye Bread
-                            </a>
-                        </h4>
-                        <div class="collapse" id="git" data-parent="#accordion">
+                    <div role="tab" class="card-header" id="side2">
+                        <div class="transbox">
+                            <h4>
+                                <a class="sideheader collapsed" data-toggle="collapse" data-target="#rye">
+                                    Rye Bread
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="collapse" id="rye" data-parent="#accordion">
                             <div class="card-body">
                                 <p>Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
                             </div>
