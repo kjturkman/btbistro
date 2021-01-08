@@ -41,8 +41,6 @@ footer {
     margin: 0;
 }
 .tab-content {
-    border: 1px black solid;
-    border-top: none;
     padding: 30px;
 }
 .menutab {
@@ -165,6 +163,12 @@ footer {
 }
 #imgdiv6 {
     background-image: url(img/Polish-Bigos.jpg);
+    background-size: cover;
+    min-height: 200px;
+    background-position: center;
+}
+#imgdiv7 {
+    background-image: url(img/roticanai.jpg);
     background-size: cover;
     min-height: 200px;
     background-position: center;
