@@ -52,6 +52,10 @@ footer {
 .menucontent {
     background: white;
 }
+.price {
+    color:rgb(99, 10, 10);
+    font-weight: bold;
+}
 .menucard {
     color:rgb(56, 37, 9);
     background: rgb(225, 225, 225);
@@ -102,6 +106,12 @@ footer {
     padding: 5px;
     border-radius: 10px;
 }
+.transbox2 {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
 #side1 {
     background-image: url(img/coconutrice.jpg);
     background-size: cover;
@@ -109,6 +119,16 @@ footer {
 }
 #side2 {
     background-image: url(img/ryebread.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#side3 {
+    background-image: url(img/tehtarik.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#side4 {
+    background-image: url(img/kompot.jpg);
     background-size: cover;
     background-position: center;
 }
