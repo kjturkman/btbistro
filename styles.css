@@ -88,6 +88,10 @@ footer {
     max-width: 75%;
     max-height: 300px;
 }
+.resImg2 {
+    max-width: 75%;
+    max-height: 150px;
+}
 .resImgDiv {
     padding: 30px 20px;
 }
@@ -153,6 +157,9 @@ footer {
     font-family: 'Fredericka the Great', cursive;
     font-weight: bold;
 }
+.abouttext {
+    margin-top: 10px;
+}
 #email {
     margin: 10px auto;
     width: 80%;
@@ -202,7 +209,7 @@ footer {
 }
 #txtdiv8 {
     background: white;
-    color:rgb(56, 37, 9);
+    color:rgb(99, 10, 10);
     min-height: 250px;
     padding: 30px 20px;
 }
