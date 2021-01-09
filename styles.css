@@ -84,7 +84,7 @@ footer {
     font-family: 'Fredericka the Great', cursive;
     font-weight: bold;
     font-size: 40px;
-    color: rgb(56, 37, 9);
+    color: rgb(99, 10, 10);
     padding: 30px 20px;
     align-items: center;
 }
@@ -169,6 +169,7 @@ footer {
 }
 .abouttext {
     margin-top: 10px;
+    font-size: 24px;
 }
 #email {
     margin: 10px auto;
@@ -189,7 +190,7 @@ footer {
     align-items: center;
 }
 #txtdiv4 {
-    background-image: linear-gradient(white, rgb(255, 181, 120), white);
+    background-image: linear-gradient(white, rgb(174, 231, 248), white);
 }
 #txtdiv5 {
     background:rgb(99, 10, 10);
@@ -306,6 +307,9 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #imgdiv9 {
     background-image: url(img/placki.jpg);
@@ -320,4 +324,18 @@ footer {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgdiv11 {
+    background-image: url("img/leaf-2210973.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
