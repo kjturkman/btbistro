@@ -15,15 +15,15 @@
 <header class="jumbotron jumbotron-fluid">
     <div class="container">
         <div class="row row-content">
-            <div class="media col-lg-9">
+            <div class="media col-lg-8">
                 <img class="img-fluid" src="img/BTBistroLogov2.png">
             </div>
-            <div class="d-none d-lg-block byline">
-                <p>Halal</p>
-                <hr class="hrbyline">
-                <p>Eurasian</p>
+            <div class="d-none d-lg-block col-lg-4 byline">
+                <p>Wholesome</p>
                 <hr class="hrbyline">
                 <p>Fusion</p>
+                <hr class="hrbyline">
+                <p>Halal</p>
             </div>
         </div>
     </div>
@@ -40,16 +40,40 @@
                 <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
             </ul>
             <ul class="navbar-nav ml-auto">
-                <li><button type="button" class="btn btn-danger">Order</button></li>
+                <li><button type="button" class="btn btn-danger fakeBtn">Order</button></li>
             </ul>
         </div>
     </div>
 </nav>
+<div id="fakeModal" class="modal fade" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: rgb(99, 10, 10); color: white;">
+                <h3 class="modal-title">Thanks for clicking!</h3>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body" style="background-color: rgb(225, 225, 225);">
+                <div class="container-fluid">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-12">
+                                <p>If you'd like to join the BT Bistro team as an investor, or if you need a custom website of your own, please contact Kryspin Turczynski: <a href="mailto:kjturkman@gmail.com">kjturkman@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal" style="background-color:rgb(99, 10, 10);">Exit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container-fluid px-0 text-center overflow-hidden" style="background:rgb(56, 37, 9)">
     <div class="row" id="txtdiv5">
         <div class="col-md-6">
             <p>Our menu changes daily, using only the freshest ingredients and slow-cooked to perfection.</p>
-            <button type="button" class="btn btn-danger">Learn More</button>
+            <a href="about.html"><button" class="btn btn-danger">Learn More</button></a>
         </div>
         <div class="d-none d-md-block col-md-6 resImgDiv">
             <img class="resImg" src="img/fruits-2026279_1280.png">
@@ -124,6 +148,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="row row-content btnrow">
+        <button class="btn btn-danger fakeBtn" style="margin: auto;">Order Now for Pickup or Delivery</button>
     </div>
 </div>
 <div class="container-fluid" style="background: rgb(99,10,10);">
@@ -219,7 +246,7 @@
                 <input type="email" class="form-control" id="email" name="email" placeholder="Email"/>
             </div>
             <div class="col-12">
-                <button type="button" class="btn btn-danger">Submit</button>
+                <button type="button" class="btn btn-danger fakeBtn">Submit</button>
             </div>
         </div>
     </form>
@@ -230,17 +257,17 @@
         <div class="row">
             <div class="col-md-6">
                 <h1><strong>BT BISTRO</strong></h1><br>
-                <button type="button" class="btn btn-danger">Order Online</button><br><br>
-                <h2><strong>10am to 10pm</strong><br>Closed Mondays</h2><br>
+                <button type="button" class="btn btn-danger fakeBtn">Order Online</button><br><br>
+                <h2><strong>10am - 10pm</strong><br>Closed Mondays</h2><br>
                 <h4>Sorry, reservations not accepted</h4><br>
-                <h2 class="maplink"><span class="fa fa-phone"></span> (510) 345-6789</h2>
-                <h2 class="maplink"><span class="fa fa-envelope"></span> info@BTbistro.com</h2><br>
+                <h2 class="maplink fakeBtn"><span class="fa fa-phone"></span> (510) 345-6789</h2>
+                <h2 class="maplink fakeBtn"><span class="fa fa-envelope"></span> info@BTbistro.com</h2><br>
             </div>
             <div class="col-md-6 text-center">
-                <hr class="hrbyline d-md-none">
+                <hr class="d-md-none hrbyline2">
                 <h2>1700 Willow St.<br>Oakland, CA 94602</h2>
                 <h4>(Corner of Main and Willow)</h4><br>
-                <p class="maplink">GOOGLE MAPS</p><br>
+                <p class="maplink fakeBtn">GOOGLE MAPS</p><br>
                 <img src="img/map.png" id="map" class="img-fluid" style="border: 2px solid black;"/>
                 <img src="img/BTBistroLogov2.png" class="img-fluid d-md-none mt-5"/>
             </div>
@@ -251,6 +278,7 @@
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
 
 </body>
 
