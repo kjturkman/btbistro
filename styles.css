@@ -82,7 +82,7 @@ footer {
     font-size: 40px;
     color: rgb(56, 37, 9);
     padding: 30px 20px;
-    align-self: center;
+    align-items: center;
 }
 .resImg {
     max-width: 75%;
@@ -144,7 +144,12 @@ footer {
     background-position: center;
 }
 .maplink {
-    font-size: 35px;
+    font-size: 30px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+}
+.abouttitle {
+    font-size: 48px;
     font-family: 'Fredericka the Great', cursive;
     font-weight: bold;
 }
@@ -155,10 +160,10 @@ footer {
     margin-bottom: 20px;
 }
 #txtdiv1 {
-    background-image: linear-gradient(to right, white, white, rgb(35, 116, 53));
+    background-image: linear-gradient(to right, white, white, rgb(35, 116, 53), rgb(35, 116, 53));
 }
 #txtdiv2 {
-    background-image: linear-gradient(to left, white, white, rgb(240, 237, 106));
+    background-image: linear-gradient(to left, white, white, rgb(240, 237, 106), rgb(240, 237, 106));
 }
 #txtdiv3 {
     background-image: linear-gradient(to left, rgb(35, 116, 53), white, rgb(240, 237, 106));
@@ -176,6 +181,45 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#txtdiv6 {
+    background-image: url(img/california-2098328_1920.jpg);
+    background-size: stretch;
+    background-position: -600px -180px;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(56,37,9);
+    padding: 30px 20px;
+}
+#txtdiv7 {
+    background:rgb(99, 10, 10);
+    color:rgb(175, 175, 175);
+    min-height: 250px;
+    padding: 30px 20px;
+}
+#txtdiv8 {
+    background: white;
+    color:rgb(56, 37, 9);
+    min-height: 250px;
+    padding: 30px 20px;
+}
+#txtdiv9 {
+    background:rgb(99, 10, 10);
+    color:rgb(175, 175, 175);
+    min-height: 250px;
+    padding: 30px 20px;
+}
+.bistrocard {
+    max-width: 500px;
+    margin-top: 20px;
+    font-family: 'Literata', serif;
+    font-weight: normal;
+    color:rgb(99, 10, 10);
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 18px;
 }
 .formdiv {
     background:rgb(56, 37, 9);
@@ -210,10 +254,10 @@ footer {
     background-size: cover;
 }
 #imgdiv4 {
-    background-image: url("img/panorama-2300806_1920.jpg");
+    background-image: url("img/golden-gate-bridge-1081782_1920.jpg");
     height: 250px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -235,3 +279,24 @@ footer {
     min-height: 200px;
     background-position: center;
 }
+#imgdiv8 {
+    background-image: url("img/ingredients-498199_1920.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#imgdiv9 {
+    background-image: url(img/placki.jpg);
+    background-size: cover;
+    min-height: 200px;
+    background-position: center;
+}
+#imgdiv10 {
+    background-image: url("img/soup-918422_1920.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
