@@ -170,6 +170,8 @@ footer {
 .abouttext {
     margin-top: 10px;
     font-size: 24px;
+    display: flex;
+    align-items: center;
 }
 #email {
     margin: 10px auto;
